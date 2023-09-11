@@ -49,3 +49,39 @@ You can click the Preview link to take a look at your changes.
   </body>
 
 </html>
+
+@font-face {
+  font-family: 'GlegooBanner';
+  src: url('../fonts/Glegoo-Regular.woff2') format('woff2'),
+       url('../fonts/Glegoo-Regular.woff') format('woff'),
+       url('../fonts/Glegoo-Regular.ttf') format('truetype')
+}
+
+h1{
+ font-style: italic;
+ text-align: left;
+ color: hsla(243, 84%, 47%, 0.376); 
+}
+
+h2{
+  font-style: normal;
+  text-align: left;
+  color: hsla(23, 100%, 50%, 0.6);
+}
+
+.tieude{
+    text-align: center;
+    font-size: 100px;
+    color: transparent;
+    background-image: linear-gradient(45deg, #f06, #9f6, #06f, #f06);
+    background-size: 200% 200%;
+    animation: glowing 2s linear infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+footer{
+    text-decoration: underline;
+    color:blue;
+    
+}
